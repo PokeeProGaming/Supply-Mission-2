@@ -38,9 +38,6 @@ function setup() {
 	redZone2.shapeColor=("red");
 	redZone3=createSprite(500,610,20,100);
 	redZone3.shapeColor=("red");
-	Matter.Body.setStatic(< body redZone1 >, false);
-	Matter.Body.setStatic(< body redZone2 >, false);
-	Matter.Body.setStatic(< body redZone3 >, false);
 
 	engine = Engine.create();
 	world = engine.world;
